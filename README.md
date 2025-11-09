@@ -1,156 +1,82 @@
-# ThoughtLite
-
 <div align="center">
-    <p>
-        <img alt="ThoughtLite Light Mode Preview" src=".github/assets/preview-light.webp">
-        <img alt="ThoughtLite Dark Mode Preview" src=".github/assets/preview-dark.webp">
-    </p>
-    <p>
-        <a href="https://github.com/tuyuritio/astro-theme-thought-lite/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/tuyuritio/astro-theme-thought-lite"></a>
-        <a href="https://raw.githubusercontent.com/tuyuritio/astro-theme-thought-lite/refs/heads/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/tuyuritio/astro-theme-thought-lite"></a>
-    </p>
-    <p>A modern <a href="https://astro.build/">Astro</a> theme, focused on content creation 🌟</p>
-    <p>
-        <small><ins>English</ins></small>
-        <small><a href="README.zh-cn.md">简体中文</a></small>
-        <small><a href="README.ja.md">日本語</a></small>
-    </p>
+    
+# Yaten-Z’s Blog|<img src="./public/favicon.svg" alt="SVG Image" width="50" height="50">
+
+
+——世界多变而永恒，文字孤独却自由。
 </div>
 
-> [!NOTE]
-> - `main` branch✅: Static build, can be deployed on any static hosting platform.
-> - `cloudflare` branch: Enables built-in comment system, only deployable on Cloudflare.
+这里是 **Yaten-Z 的个人博客**，一个在文字与代码之间游走的地方。  
+我在这里写下关于技术、数学、文学与生活的思考，也记录自己成长的轨迹。
 
-🎬 **Live Demo**: [Vercel](https://thought-lite.vercel.app/)
+我始终相信，**代码是一种语言，而语言本身就是艺术。**  
+当我在屏幕前敲下每一行语句，就像诗人在纸上寻找句式的节奏。  
+它们都需要逻辑与情感的平衡，都在追求一种属于表达者自己的秩序与美感。
 
-## ✨ Features
+---
 
-- [x] **Responsive Design** - Adaptive for mobile, tablet, and desktop.
-- [x] **Light / Dark Mode** - Auto-follows system preference with manual toggle support.
-- [x] **CSR Dynamic Content Filtering** - List filtering and pagination via History API.
-- [x] **i18n Support** - Extensible multilingual support, also works perfectly in monolingual mode.
-- [x] **Sitemap & Feed Subscription** - Automated generation of Sitemap and Atom Feed.
-- [x] **OpenGraph Support** - Built-in Open Graph meta tags for optimized social media sharing.
+## 博客的诞生
 
-## ⚡️ Quick Start
+起初，我只是想要一个干净的地方，能让我安静地写点什么。  
+后来，它成了一本不被时间掩埋的笔记本，也是一面映照自我的镜子。  
+那些曾经的代码实验、文学片段、数学推演与深夜随想，都在这里汇聚，  
+它们共同构成了“我”这个不断生长的存在。
 
-### Using Astro Command
+博客使用了 **[Astro](https://astro.build/)** 框架，  
+并基于优秀的主题 **[ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite)** 进行二次构建。  
+这款主题简洁、克制，却又不失温度——正如我希望自己写下的文字那样。
 
-Run the following command:
+---
 
-```sh
-npx create-astro@latest --template tuyuritio/astro-theme-thought-lite
+## 内容与方向
 
-# Follow the interactive prompts to create the project
+在这里，我写下的内容大致分为四类：
 
-cd <your-project-name>
-bun dev
-```
+- **note** —— 文记，关于思考与构建的长篇作品。  
+- **jotting** —— 随笔，即时的感受与片刻的灵光。  
+- **preface** —— 前言，为整座博客定下语调与心绪。  
+- **information** —— 信息，记录说明与技术笔记。
 
-### Using Template
+有时是代码的逻辑，有时是诗的节奏；  
+有时是项目的细节，有时是夜色下的一句低语。  
+一切都源自那种“想要记录”的冲动。
 
-1. [Use this template](https://github.com/new?template_name=astro-theme-thought-lite&template_owner=tuyuritio) to create a new repository or [fork](https://github.com/tuyuritio/astro-theme-thought-lite/fork) this repository.
-2. Run the following commands:
+---
 
-```sh
-git clone <your-repo-url>
-cd <your-repo-name>
-bun install
-bun dev
-```
+## 技术的温度
 
-## 🔧 Configuration
+博客的世界由代码筑成。  
+我使用 **Astro + Svelte** 的组合去搭建它，用 **UnoCSS** 打磨视觉细节，  
+再借助 **Medium Zoom**、**Swup** 等库，让阅读在流动中保持沉静。  
 
-Customize site configuration and internationalization (i18n) by modifying the following files:
+一行一行配置，一次又一次构建，  
+就像为思想搭建一座可以安放的屋子。  
+而主题 **ThoughtLite**，正是这座屋子的骨架——  
+简约、清晰，却留有足够的空间容纳个体的思想。
 
-- `.env`
-- `astro.config.ts`
-- `site.config.ts`
+---
 
-For basic configuration, refer to the [Site Configuration Guide](src/content/note/en/configuration.md).
+## 写作的意义
 
-For internationalization configuration, refer to the [Internationalization Configuration Guide](src/content/note/en/internationalization.md).
+我写这些文字，不是为了“展示”，  
+而是为了让自己在混乱的世界中，保留一份秩序感。  
+当代码编译通过，当句子终于顺畅，  
+那种平静与满足，是我理解“创造”的全部意义。
 
-## 💻 Commands
+我相信，学习的本质是理解世界，  
+而写作的本质，是理解自己。  
 
-The theme provides the following commonly used commands:
+---
 
-| Command | Action |
-| --- | --- |
-| `bun install` | Install project dependencies |
-| `bun new` | Create a new content file |
-| `bun dev` | Start the local development server (default: `http://localhost:4321`) |
-| `bun check` | Run Astro type checking |
-| `bun build` | Build the production version |
-| `bun preview` | Preview the built site |
-| `bun format` | Format code |
-| `bun lint` | Lint code |
-| `bun update` | Update project dependencies |
+## 致谢
 
-## 🚀 Deployment
+- **主题作者**：[tuyuritio / ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite)  
+- **框架支持**：[Astro](https://astro.build/)  
+- **团队伙伴**：[TATEN](https://taten.xyz) —— *创新 · 协作 · 分享 · 成长*  
 
-The current branch can be fully static built and deployed on any static hosting platform.
+---
 
-For deployment methods on various platforms, refer to the [Astro Official Deployment Guide](https://docs.astro.build/en/guides/deploy/).
+## License
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tuyuritio/astro-theme-thought-lite&project-name=astro-blog-thought-lite&repository-name=astro-blog-thought-lite&teamSlug=tuyuritios-projects)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/integration/start/deploy?repository=https://github.com/tuyuritio/astro-theme-thought-lite)
-
-## 🔄 Updates
-
-Run the following commands to sync upstream updates:
-
-```sh
-git remote add theme https://github.com/tuyuritio/astro-theme-thought-lite.git
-git fetch theme
-git merge theme/main    # Add `--allow-unrelated-histories` flag for first update
-bun install
-```
-
-## ✍️ Content Creation
-
-Content creation is centralized in the `src/content` directory, mainly including:
-
-- `note` - Notes, focused on carefully crafted and detailed long-form works
-- `jotting` - Jottings, lightweight and immediate content recording
-- `preface` - Preface, displayed on the homepage as the first impression
-- `information` - Information, containing various descriptive content
-
-For details, refer to the [Content Creation Guide](src/content/note/en/content.md).
-
-## 🤝 Contributing
-
-All kinds of contributions are welcome and appreciated!
-
-- Help promote the project or assist other users
-- Report [issues](https://github.com/tuyuritio/astro-theme-thought-lite/issues) or suggest new features
-- Improve documentation or help with internationalization (i18n)
-- Submit code contributions - see the [Code Contribution Guide](CONTRIBUTING.md) for more details
-
-## 🙏 Acknowledgments
-
-### Tech Stack
-
-- **Core Framework** - [Astro](https://astro.build/)
-- **Core Language** - [TypeScript](https://www.typescriptlang.org/)
-- **UI Components** - [Svelte](https://svelte.dev/)
-- **CSS Engine** - [UnoCSS](https://unocss.dev/)
-- **CSS Preprocessor** - [Less](https://lesscss.org/)
-- **Icons** - [Iconify](https://iconify.design/)
-- **Fonts** - [Google Fonts](https://fonts.google.com/) | [ZeoSeven Fonts](https://fonts.zeoseven.com/)
-- **Image Viewer** - [Medium Zoom](https://github.com/francoischalifour/medium-zoom)
-- **SPA Transitions** - [Swup](https://swup.js.org/)
-- **Time Handling** - [Luxon](https://moment.github.io/luxon/)
-- **Code Quality** - [Biome](https://biomejs.dev/)
-- **Static Deployment** - [Vercel](https://vercel.com/)
-
-### Inspiration
-
-- [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
-- [astro-vitesse](https://github.com/adrian-ub/astro-vitesse)
-- [Miniblog](https://github.com/nicholasdly/miniblog)
-- [AstroPaper with I18n](https://github.com/yousef8/astro-paper-i18n)
-
-## 📜 License
-
-This project is licensed under [GPLv3](LICENSE), allowing free modification and distribution, but the original copyright notice must be retained.
+本博客遵循 [GPLv3](LICENSE) 协议开源。  
+主题版权归 [tuyuritio / ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite) 所有。
