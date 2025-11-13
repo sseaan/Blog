@@ -7,6 +7,7 @@ import Icon from "$components/Icon.astro";
 import Position from "$components/Position.astro";
 import Sensitive from "$components/Sensitive.svelte";
 import i18nit from "$i18n";
+import Giscus from "$components/Giscus.svelte";
 
 export async function getStaticPaths() {
 	// Get all notes excluding drafts
@@ -63,5 +64,13 @@ const t = i18nit(locale);
 		</Sensitive>
 
 		<Position {locale} />
+		<Giscus 
+			client:load
+			repo="Yaten-Z/blog-giscus"
+			repoId="R_kgDOOzg2eg"
+			category="Announcements"
+			categoryId="DIC_kwDOOzg2es4Cq1Mo"
+			lang="zh-CN"
+		/>
 	</main>
 </Base>

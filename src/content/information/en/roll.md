@@ -1,7 +1,12 @@
-The theme **does not provide** an online application interface for friendly links, and it is recommended that webmasters manually manage their own friend link lists.
+| 名字         | 网站链接                                       | 头像                                                                                   | 介绍                                       |
+|--------------|------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------|
+| **TATEN** | [taten.xyz](https://taten.xyz) | ![TATEN](https://s1.imagehub.cc/images/2025/11/08/939d0319d47029a228029721d34ed816.png) | 一群热爱编程的学生，致力于探索技术的无限可能。                 |
+| **LINMOHAN** | [home.linmohan.fun](https://home.linmohan.fun) | ![LINMOHAN](https://s1.imagehub.cc/images/2025/10/18/99d5d57c7013acb6c92305314cc66374.png)| 代码重构世界，逻辑解构真理                 |
+| **HHYYYY**   | [hhyyyy.cn](https://hhyyyy.cn/)                | ![HHYYYY](https://s1.imagehub.cc/images/2025/07/31/1fe122170bc941cc696119b9aaca6ead.jpg) | 用科技之眼探索世界，用光影之笔记录瞬间     |
+| **LGCM**     | [LGCM.xyz](http://www.LGCM.xyz)                | ![LGCM](https://s1.imagehub.cc/images/2025/07/30/75fb3a7a7532703f2e7f0c095dc417f1.jpg)     | 半个软件工程师                             |
+| **Errorsia** | [errorsia.com](http://errorsia.com)            | ![Errorsia](https://s1.imagehub.cc/images/2025/07/30/86668972c5b3fb5e440c6e1bba1f69db.png) | N/A                                       |
+| **HungryHenry** | [hungryhenry.cn](https://hungryhenry.cn)     | ![HungryHenry](https://s1.imagehub.cc/images/2025/07/31/4b1f583c02e682ac790c6bfa7a52ec0b.jpg) | 不是在写bug，就是在debug🐛     |
+| **Ruibin_Ningh** | [ruibin-ningh.top](https://www.ruibin-ningh.top/) | ![Ruibin_Ningh](https://s1.imagehub.cc/images/2025/07/31/b2e402249619e45fd0a227d7f5161d5a.jpg) | 不争于表象，只专于底层                     |                |
+| **GuYang17** | [guyang17.github.io](https://guyang17.github.io/) | ![GuYang17](https://avatars.githubusercontent.com/u/196782409?v=4)                    | 编程爱好者 \| Minecraft玩家              |
 
-The author encourages every webmaster to view friendly links as genuine and valuable recommendations, including only sites they **truly appreciate, regularly read, or are willing to share**.
-
-Rather than randomly adding mutual links for exchange or pure SEO purposes, the author hopes that every link represents **content resonance** and **value recognition**, building a site network full of personality and warmth.
-
-If you decide to display friendly links, consider them as an extension of your site's style, integrating them with your content to become a trustworthy part of your site.
+[github-sub-title:img]: https://readme-typing-svg.herokuapp.com?font=Segoe+Script&center=true&lines=Yaten-Z.

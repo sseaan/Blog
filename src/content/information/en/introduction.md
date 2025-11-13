@@ -1,9 +1,27 @@
-**ThoughtLite** is a modern [Astro](https://astro.build/) theme focused on content creation.
 
-The author previously used a self-built theme based on [SvelteKit](https://svelte.dev/docs/kit/introduction), but due to difficulties in i18n handling, too many redundant features, and high maintenance costs, decided to migrate to Astro.
+有时我会想，  
+人为什么要搭建一座属于自己的小小网站。  
 
-The theme focuses on core content-related functions, aiming to build an **efficient and transparent** space for creation.
+也许是为了留下点什么，  
+也许只是想，在这浩瀚的互联网里，  
+找到一处能安放思绪的地方。  
 
-Additionally, the theme supports modern features such as **multilingual switching**, **responsive layout**, and **dynamic content filtering**, providing users with a smooth experience.
+---
 
-If you are interested in the theme, please visit the [**GitHub repository**](https://github.com/tuyuritio/astro-theme-thought-lite) for more information and quick start guide.
+你好，我是 **Yaten-Z**，一个三线经济特区城市的初三学生。  
+MBTI(16personalities) 是 **ENFJ-T**。  
+
+我喜欢写字，也喜欢写代码。  
+对我来说，这两件事其实没有太大区别。  
+文字是人类思想的语言，而代码是思想的结构。  
+它们都在表达、在创造，只是方式不同。  
+我在一行行字符里寻找秩序，也在一段段句子里寻找温度。  
+
+有时我会想，为什么要搭建这样一座博客。  
+大概是为了让时间留下痕迹吧。  
+我不希望自己写下的文字、写过的代码、甚至某个深夜的思考，都随着岁月消散。  
+所以我在这里留下它们，让它们继续呼吸。  
+
+如果你也是在追寻思考与创造的人，  
+或只是偶然路过，也欢迎停下来聊一聊。  
+关于文学，关于技术，关于你正在经历的故事——都好。  
