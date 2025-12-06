@@ -1,104 +1,104 @@
-## Privacy Policy
+## 隐私政策
 
-> **Last Updated**: Sep 20, 2025
+> **最后更新**：2025 年 9 月 20 日
 
-We highly value your privacy and only collect the minimal data necessary to provide basic services. This policy explains how we collect, use, and protect your data.
+本站高度重视您的隐私，仅收集提供基础服务所需的最小化数据。本政策将说明本站如何收集、使用和保护您的数据。  
 
-### Types of Data Collection
+### 数据收集类型
 
-1. Automatically collected data
-    - Theme preferences: site light or dark mode preference settings.
+1. 自动收集数据
+    - 主题偏好：站点浅色模式或深色模式的偏好设置。
 
-The following table provides an overview of the types of data collected, collection purposes, and storage locations:
+下表提供了所收集数据类型、收集目的和存储位置的概述：
 
-| Data Type | Collection Method | Collection Purpose | Storage Location | Notes |
+| 数据类型 | 收集方式 | 收集目的 | 存储位置 | 备注 |
 | - | - | - | - | - |
-| Theme preferences | User settings | Save interface display mode | localStorage | |
+| 主题偏好 | 用户设置 | 保存界面显示模式 | localStorage | |
 
-### Data Usage Purposes
+### 数据使用目的
 
-- Enhance user experience: Save user theme preference settings (light/dark mode) in localStorage to ensure users maintain their personalized interface settings on their next visit.
+- 增强用户体验：保存用户的主题偏好设置（浅色/深色模式）在 localStorage 中，确保用户下次访问时能够保持其个性化的界面设置。
 
-### Data Storage and Protection
+### 数据存储与保护
 
-- localStorage: User custom nicknames and theme preference settings are stored in the browser's localStorage. This data is only stored on the user's local device and is not transmitted to the server. Users can clear this local data at any time through browser settings.
-- HTTPS encryption: The entire site uses HTTPS encrypted transmission. All data transmitted between the client and server is protected by TLS/SSL encryption, preventing data from being stolen or tampered with during transmission.
+- localStorage：用户的自定义昵称和主题偏好设置存储在浏览器的 localStorage 中，这些数据仅在用户本地设备上存储，不会传输到服务器。用户可以随时通过浏览器设置清除这些本地数据。
+- HTTPS 加密：本站全站启用 HTTPS 加密传输，所有数据在客户端与服务器之间的传输过程中均受到 TLS/SSL 加密保护，防止数据在传输过程中被窃取或篡改。
 
-### Data Sharing and Disclosure
+### 数据共享与披露
 
-We are committed to protecting your privacy and may share or disclose your data in the following circumstances:
+本站承诺保护您的隐私，在以下情况下可能会共享或披露您的数据：
 
-- Legal requirements: When required by laws and regulations or lawfully requested by judicial authorities, this site may need to disclose relevant data. However, within the scope permitted by law, this site will do its best to protect user privacy and notify affected users.
-- Data anonymization: This site may use anonymized or de-identified data for statistical analysis. This data will not contain any personally identifiable information.
+- 法律要求：在法律法规要求或司法机关依法要求的情况下，本站可能需要披露相关数据。但本站会在法律允许的范围内，尽力保护用户隐私并通知受影响的用户。
+- 数据匿名化：本站可能会使用匿名化或去识别化的数据进行统计分析，这些数据不会包含任何可识别个人身份的信息。
 
-Except for the above circumstances, this site will not sell, lease, or otherwise share your personal data with any third parties.
+除上述情况外，本站不会向任何第三方出售、租赁或以其他方式共享您的个人数据。
 
-### User Rights
+### 用户权利
 
-As a data subject, you have the following rights regarding your personal data:
+作为数据主体，您拥有以下关于个人数据的权利：
 
-- You have the right to know what personal data this site has collected about you.
-- You can clear local data stored in your browser at any time.
+- 您有权了解本站收集了您的哪些个人数据。
+- 您可以随时清除浏览器中存储的本地数据。
 
-## Terms of Service
+## 服务条款
 
-> **Last Updated**: Sep 20, 2025
+> **最后更新**：2025 年 9 月 20 日
 
-### Service Content
+### 服务内容
 
-This site is a personal content creation platform based on open-source technology, primarily providing:
+本站是一个基于开源技术的个人内容创作平台，主要提供：
 
-- Article reading and browsing functionality.
-- Feed subscription service.
+- 文章阅读和浏览功能。
+- Feed 订阅服务。
 
-### User Permission Description
+### 用户权限说明
 
-- Browse all public content on the site.
-- Subscribe to feeds.
+- 浏览站点所有公开内容。
+- 订阅 Feed。
 
-### User Conduct Guidelines
+### 用户行为准则
 
-When using this site's services, you need to comply with:
+使用本站服务时，您需要遵守：
 
-- Respect the legitimate rights and interests of other users and content creators.
-- Do not abuse or attempt to damage the website's technical architecture.
+- 尊重其他用户和内容创作者的合法权益。
+- 不滥用或试图破坏网站技术架构。
 
-### Intellectual Property
+### 知识产权
 
-- This site's theme is released under the [GPLv3 open-source license](https://www.gnu.org/licenses/gpl-3.0.html).
-- Original content on the site is licensed under Creative Commons license, please refer to the footer for specific license type.
-- Third-party resources follow their respective licensing agreements.
+- 本站主题基于 [GPLv3 开源协议](https://www.gnu.org/licenses/gpl-3.0.html) 发布。
+- 站内原创内容采用知识共享（Creative Commons）协议授权，具体许可协议类型请参见网站页脚标识。
+- 第三方资源遵循各自的许可协议。
 
-### Service Changes and Termination
+### 服务变更与终止
 
-- This site reserves the right to modify, suspend, or terminate part or all services at any time.
-- Major changes will be notified to users through website announcements or other appropriate means.
+- 本站保留随时修改、暂停或终止部分或全部服务的权利。
+- 重大变更将通过网站公告或其他适当方式通知用户。
 
-## Disclaimer
+## 免责声明
 
-> **Last Updated**: July 27, 2025
+> **最后更新**：2025 年 7 月 27 日
 
-### Content Disclaimer
+### 内容免责
 
-- Content on this site only represents the author's personal views and does not constitute any form of advice or guidance.
-- This site is not responsible for the accuracy, completeness, or timeliness of content.
-- Users are responsible for any consequences arising from using this site's content.
+- 本站内容仅代表作者个人观点，不构成任何形式的建议或指导。
+- 本站不对内容的准确性、完整性、时效性承担责任。
+- 用户因使用本站内容而产生的任何后果，需自行承担责任。
 
-### Technical Disclaimer
+### 技术免责
 
-- This site is built on open-source technology. This site strives to ensure service stability but does not guarantee no interruptions.
-- This site is not responsible for service interruptions caused by network failures, server maintenance, force majeure, and other factors.
-- Third-party service failures or policy changes may affect this site's functionality.
+- 本站基于开源技术构建，本站尽力保证服务稳定，但不保证无中断。
+- 因网络故障、服务器维护、不可抗力等因素导致的服务中断，本站不承担责任。
+- 第三方服务的故障或政策变更可能影响本站功能。
 
-### Link Disclaimer
+### 链接免责
 
-- This site may contain links to third-party websites. This site is not responsible for the content or privacy policies of these websites.
-- Users are responsible for their actions and consequences when clicking external links.
+- 本站可能包含指向第三方网站的链接，本站不对这些网站的内容或隐私政策负责。
+- 用户点击外部链接的行为及其后果由用户自行承担。
 
-### Loss Disclaimer
+### 损失免责
 
-To the maximum extent permitted by law, this site is not responsible for the following situations:
+在法律允许的最大范围内，本站不对以下情况承担责任：
 
-- Direct or indirect losses caused by using or being unable to use this site's services.
-- Data loss, business interruption, or other economic losses.
-- Infringement or breach of contract by third parties.
+- 使用或无法使用本站服务导致的直接或间接损失。
+- 数据丢失、业务中断或其他经济损失。
+- 第三方的侵权行为或违约行为。

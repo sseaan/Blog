@@ -30,6 +30,8 @@ navigation:
   policy: 規約
   preface: 序文
   subscription: 購読
+  copy: Copywriting
+  friendlink: リンク
 note:
   contents: 目次
   empty: 文記がありません
@@ -50,3 +52,10 @@ sensitive:
   warning: この記事があなたの精神的健康に影響を与える可能性がある場合は、すぐに離れてください！
 statistics: '{words} 文字を書いた'
 theme: 'テーマ: ThoughtLite'
+friendlink:
+  description: 好きなウェブサイトとブログのコレクション
+  empty: リンクはまだありません
+
+copy:
+  empty: No copywriting available
+  tag: Tag

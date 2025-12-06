@@ -32,6 +32,8 @@ navigation:
   policy: Policy
   preface: Preface
   subscription: Subscription
+  copy: コピーライティング
+  friendlink: Friends
 note:
   contents: Contents
   empty: No notes available
@@ -56,3 +58,9 @@ sensitive:
   warning: If this content might affect your mental health, please leave immediately!
 statistics: Wrote {words} words
 theme: 'Theme: ThoughtLite'
+friendlink:
+  description: A collection of websites and blogs I like
+  empty: No friends yet
+copy:
+  empty: 文案がありません
+  tag: 付札

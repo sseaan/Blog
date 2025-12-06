@@ -30,6 +30,8 @@ navigation:
   policy: 政策
   preface: 序文
   subscription: 订阅
+  friendlink: 友链
+  copy: 文案
 note:
   contents: 目录
   empty: 暂无文记
@@ -50,3 +52,9 @@ sensitive:
   warning: 若这些内容可能影响您的心理健康，请立即离开！
 statistics: 写下 {words} 字
 theme: '主题: ThoughtLite'
+friendlink:
+  description: 这里收集了一些我喜欢的网站和博客
+  empty: 暂无友链
+copy:
+  empty: 暂无文案
+  tag: 标签

@@ -11,7 +11,8 @@ interface Props {
 	strict?: boolean;
 	reactions?: boolean;
 	inputPosition?: "top" | "bottom";
-	theme?: "noborder_light" | "noborder_dark";
+	lightTheme?: string; // 浅色主题，默认 "light"
+	darkTheme?: string; // 深色主题，默认 "dark"
 	lang?: string;
 }
 
@@ -25,7 +26,8 @@ let {
 	strict = true,
 	reactions = true,
 	inputPosition = "top",
-	theme = "noborder_light",
+	lightTheme = "light",
+	darkTheme = "dark",
 	lang = "zh-CN"
 }: Props = $props();
 
@@ -37,9 +39,9 @@ const sendMessage = (message: any) => {
 	iframe.contentWindow?.postMessage({ giscus: message }, "https://giscus.app");
 };
 
-const getCurrentTheme = (): "noborder_light" | "noborder_dark" => {
+const getCurrentTheme = (): string => {
 	const isDark = document.documentElement.dataset.theme === "dark";
-	return isDark ? "noborder_dark" : "noborder_light";
+	return isDark ? darkTheme : lightTheme;
 };
 
 const handleThemeChange = () => {
