@@ -52,6 +52,24 @@ const friendlinks: IFriendLink[] = [
 		url: "https://guyang17.github.io/",
 		avatar: "https://avatars.githubusercontent.com/u/196782409?v=4",
 		description: "编程爱好者 | Minecraft玩家"
+	},
+	{
+		name: "June's Blog",
+		url: "https://blog.june-pj.cn/",
+		avatar: "https://gitlab.com/June_PJ/PicGo-PJ/raw/main/img/avatar.webp",
+		description: "遇事不决，可问春风"
+	},
+	{
+		name: "枫叶",
+		url: "https://blog.aqcoder.cn",
+		avatar: "https://blog.aqcoder.cn/img/avatar.png",
+		description: "分享知识，认识世界"
+	},
+	{
+		name: "s1rius' blog",
+		url: "https://s1rius.space/",
+		avatar: "https://s1rius.space/img/custom/avatar.webp",
+		description: "这里有网络安全和其他技术文章"
 	}
 ];
 
