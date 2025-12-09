@@ -69,7 +69,7 @@ onMount(() => {
 			<span>{@render jotting()}</span>
 			<p>{t("navigation.jotting")}</p>
 		</a>
-		<a href={getRelativeLocaleUrl(locale, "/friendlink")} class:location={route.startsWith(getRelativeLocaleUrl(locale, "/friendlink"))}>
+		<a href={getRelativeLocaleUrl(locale, "/links")} class:location={route.startsWith(getRelativeLocaleUrl(locale, "/friendlink"))}>
 			<span>{@render friendlink()}</span>
 			<p>{t("navigation.friendlink")}</p>
 		</a>
