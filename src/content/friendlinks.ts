@@ -94,6 +94,12 @@ const friendlinks: IFriendCategory[] = [
 				url: "https://note.redcha.cn/",
 				avatar: "https://note.redcha.cn/upload/favicon-256x256.png",
 				description: "我的个人笔记"
+			},
+			{
+				name: "星河避难所",
+				url: "https://hejunjie.life",
+				avatar: "https://cdn.hejunjie.life/avatar.jpg",
+				description: "写代码，也写自己"
 			}
 		]
 	}
