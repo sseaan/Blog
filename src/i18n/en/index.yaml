@@ -33,6 +33,7 @@ navigation:
   preface: Preface
   subscription: Subscription
   friendlink: Friends
+  message: Message
   search: Search
 note:
   contents: Contents
@@ -68,3 +69,6 @@ search:
   hint: Enter keywords to start searching
   empty: No matching content found
   found: "Found {count} results"
+
+message:
+  description: Leave your message here

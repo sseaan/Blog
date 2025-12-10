@@ -20,7 +20,8 @@ let {
 	moon,
 	bars,
 	close,
-	friendlink // 添加这一行
+	message,
+	friendlink
 }: { locale: string; route: string } & { [key: string]: Snippet } = $props();
 
 const t = i18nit(locale);
@@ -73,6 +74,10 @@ onMount(() => {
 		<a href={getRelativeLocaleUrl(locale, "/links")} class:location={route.startsWith(getRelativeLocaleUrl(locale, "/friendlink"))}>
 			<span>{@render friendlink()}</span>
 			<p>{t("navigation.friendlink")}</p>
+		</a>
+		<a href={getRelativeLocaleUrl(locale, "/message")} class:location={route.startsWith(getRelativeLocaleUrl(locale, "/message"))}>
+			<span>{@render message()}</span>
+			<p>{t("navigation.message")}</p>
 		</a>
 		<a href={getRelativeLocaleUrl(locale, "/about")} class:location={route.startsWith(getRelativeLocaleUrl(locale, "/about"))}>
 			<span>{@render about()}</span>
