@@ -56,7 +56,7 @@ onMount(() => {
 <div role="button" onclick={() => (menu = false)} class:pointer-events-none={!menu} class:bg-transparent={!menu} class="fixed top-0 left-0 w-screen h-screen pointer-events-auto bg-#aaaaaa88 transition-background-color sm:hidden"></div>
 
 <nav bind:this={navigator} class:transform-translate-x-full={!menu} class="fixed top-0 right-0 flex flex-col justify-between items-start gap-5 p-5 bg-background h-full sm:contents overflow-hidden transition-transform">
-	<header class="grid gap-5 c-secondary grid-rows-[repeat(8,1fr)] sm:(grid-rows-none grid-cols-[repeat(7,1fr)])">
+	<header class="grid gap-5 c-secondary grid-rows-[repeat(7,1fr)] sm:(grid-rows-none grid-cols-[repeat(6,1fr)])">
 		<button onclick={() => (menu = false)} class="sm:hidden">{@render close()}</button>
 
 		<a href={getRelativeLocaleUrl(locale)} class:location={route == getRelativeLocaleUrl(locale) || route.startsWith(getRelativeLocaleUrl(locale, "/preface"))}>
@@ -92,16 +92,9 @@ onMount(() => {
 		</a>
 		<a href={getRelativeLocaleUrl(locale, "/feed.xml")} target="_blank" aria-label="Subscription" class="inline-flex">{@render rss()}</a>
 
-		{#if !monolocale}
-			<Menu label="Language switcher">
-				{#snippet trigger()}{@render globe()}{/snippet}
-				<div data-no-swup class="contents">
-					{#each config.i18n.locales as locale}
-						<a href={getRelativeLocaleUrl(locale as string, path)} aria-label={i18nit(locale)("language")}>{i18nit(locale)("language")}</a>
-					{/each}
-				</div>
-			</Menu>
-		{/if}
+		<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
+			<i class="fas fa-subway"></i>
+		</a>
 	</footer>
 </nav>
 
