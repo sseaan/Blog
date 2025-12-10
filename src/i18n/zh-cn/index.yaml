@@ -32,6 +32,7 @@ navigation:
   subscription: 订阅
   friendlink: 友链
   copy: 文案
+  search: 搜索
 note:
   contents: 目录
   empty: 暂无文记
@@ -58,3 +59,10 @@ friendlink:
 copy:
   empty: 暂无文案
   tag: 标签
+
+search:
+  description: 搜索文章和随笔
+  placeholder: 搜索标题、标签或系列...
+  hint: 输入关键词开始搜索
+  empty: 没有找到匹配的内容
+  found: "找到 {count} 条结果"

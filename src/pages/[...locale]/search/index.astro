@@ -1,0 +1,73 @@
+---
+// src/pages/[...locale]/search/index.astro
+import { getCollection } from "astro:content";
+import config, { monolocale } from "$config";
+import Base from "$layouts/Base.astro";
+import Search from "$components/Search.svelte";
+import Icon from "$components/Icon.astro";
+import i18nit from "$i18n";
+
+export async function getStaticPaths() {
+	return config.i18n.locales.map(locale => ({
+		params: { locale: config.i18n.defaultLocale === locale ? undefined : locale }
+	}));
+}
+
+const { locale = config.i18n.defaultLocale } = Astro.params;
+const t = i18nit(locale);
+
+// 获取所有已发布的笔记
+const notes = await getCollection("note", note => {
+	let published = !note.data.draft;
+	let localed = monolocale || note.id.split("/")[0] === locale;
+	return published && localed;
+});
+
+// 获取所有已发布的随笔
+const jottings = await getCollection("jotting", jotting => {
+	let published = !jotting.data.draft;
+	let localed = monolocale || jotting.id.split("/")[0] === locale;
+	return published && localed;
+});
+
+// 标准化数据结构
+const noteList = notes.map(note => ({
+	id: note.id,
+	data: {
+		title: note.data.title,
+		timestamp: note.data.timestamp,
+		series: note.data.series,
+		tags: note.data.tags,
+		sensitive: note.data.sensitive,
+		top: note.data.top
+	}
+}));
+
+const jottingList = jottings.map(jotting => ({
+	id: jotting.id,
+	data: {
+		title: jotting.data.title,
+		timestamp: jotting.data.timestamp,
+		tags: jotting.data.tags,
+		sensitive: jotting.data.sensitive,
+		top: jotting.data.top
+	}
+}));
+---
+
+<Base title={t("navigation.search")} {locale} description={t("search.description")}>
+	<main class="flex flex-col gap-6">
+		<header class="flex flex-col gap-4">
+			<h1 class="text-3xl">{t("navigation.search")}</h1>
+			<hr class="b-b b-b-solid b-weak" />
+		</header>
+		
+		<Search client:load {locale} notes={noteList} jottings={jottingList}>
+			<Icon name="lucide:search" slot="search" />
+			<Icon name="lucide:file-text" slot="note" />
+			<Icon name="lucide:pen-line" slot="jotting" />
+			<Icon name="lucide:flag-triangle-right" slot="top" />
+			<Icon name="lucide:siren" slot="sensitive" />
+		</Search>
+	</main>
+</Base>

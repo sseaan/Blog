@@ -32,8 +32,8 @@ navigation:
   policy: Policy
   preface: Preface
   subscription: Subscription
-  copy: コピーライティング
   friendlink: Friends
+  search: Search
 note:
   contents: Contents
   empty: No notes available
@@ -61,6 +61,10 @@ theme: 'Theme: ThoughtLite'
 friendlink:
   description: A collection of websites and blogs I like
   empty: No friends yet
-copy:
-  empty: 文案がありません
-  tag: 付札
+
+search:
+  description: Search articles and jottings
+  placeholder: Search titles, tags or series...
+  hint: Enter keywords to start searching
+  empty: No matching content found
+  found: "Found {count} results"
