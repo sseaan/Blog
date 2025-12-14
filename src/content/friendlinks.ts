@@ -102,6 +102,23 @@ const friendlinks: IFriendCategory[] = [
 				description: "写代码，也写自己"
 			}
 		]
+	},
+	{
+		category: "加入的 Blog 组织",
+		links: [
+			{
+				name: "Blogsclub",
+				url: "https://www.blogsclub.org/",
+				avatar: "https://s1.imagehub.cc/images/2025/12/15/1b58ee608f57401387d2ef4e40b91559.jpg",
+				description: "Blogsclub 博客俱乐部"
+			},
+			{
+				name: "BlogFinder",
+				url: "https://bf.zzxworld.com/",
+				avatar: "https://bf.zzxworld.com/images/favicon.png",
+				description: "每个博客都是一座宝藏"
+			}
+		]
 	}
 ];
 export type { IFriendLink, IFriendCategory };
