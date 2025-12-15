@@ -28,7 +28,7 @@ const friendlinks: IFriendCategory[] = [
 				name: "HHYYYY",
 				url: "https://hhyyyy.cn/",
 				avatar: "https://s1.imagehub.cc/images/2025/07/31/1fe122170bc941cc696119b9aaca6ead.jpg",
-				description: "用科技之眼探索世界，用光影之笔记录瞬间"
+				description: "科技之眼探索世界，光影之笔记录瞬间"
 			},
 			{
 				name: "LGCM",
@@ -100,6 +100,18 @@ const friendlinks: IFriendCategory[] = [
 				url: "https://hejunjie.life",
 				avatar: "https://cdn.hejunjie.life/avatar.jpg",
 				description: "写代码，也写自己"
+			},
+			{
+				name: "辰渊尘の个人博客",
+				url: "https://blog.mcxiaochen.top/",
+				avatar: "https://blog.mcxiaochen.top/favicon.ico",
+				description: "05后高中生，内容偏技术向"
+			},
+			{
+				name: "Jerry Zhou",
+				url: "https://blog.jerryz.com.cn/",
+				avatar: "https://img.examcoo.com/ask/7386438/202111/163626915705190.jpg",
+				description: "永远相信美好的事情即将发生"
 			}
 		]
 	},
