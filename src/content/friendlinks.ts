@@ -112,6 +112,12 @@ const friendlinks: IFriendCategory[] = [
 				url: "https://blog.jerryz.com.cn/",
 				avatar: "https://img.examcoo.com/ask/7386438/202111/163626915705190.jpg",
 				description: "永远相信美好的事情即将发生"
+			},
+			{
+				name: "小改学习志",
+				url: "https://www.haoyu233.com",
+				avatar: "https://cn.cravatar.com/avatar/14e584196d31262ea144ab4d75d4c083?s=550&r=g",
+				description: "尘埃尚未落定，一切皆有可能"
 			}
 		]
 	},
