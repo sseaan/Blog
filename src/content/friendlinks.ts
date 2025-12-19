@@ -118,6 +118,12 @@ const friendlinks: IFriendCategory[] = [
 				url: "https://www.haoyu233.com",
 				avatar: "https://cn.cravatar.com/avatar/14e584196d31262ea144ab4d75d4c083?s=550&r=g",
 				description: "尘埃尚未落定，一切皆有可能"
+			},
+			{
+				name: "我的技术成长笔记",
+				url: "https://blog.longdahuasheng.top",
+				avatar: "https://blog.longdahuasheng.top/logo.png",
+				description: "记录每一步成长的思考"
 			}
 		]
 	},
