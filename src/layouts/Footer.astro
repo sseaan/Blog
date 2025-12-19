@@ -11,10 +11,8 @@ const t = i18nit(locale);
 let ccURL: string;
 let ccLabel: string;
 
-// 博客运行日期计算
-const blogLaunchDate = new Date("2025-11-08");
-const currentDate = new Date();
-const daysRunning = Math.floor((currentDate.getTime() - blogLaunchDate.getTime()) / (1000 * 60 * 60 * 24));
+// 博客启动日期（用于客户端计算）
+const launchTime = new Date("2025-05-25").getTime();
 
 // 导航显示链接
 const navLinks = [
@@ -266,7 +264,7 @@ const policy = await getEntry("information", `${locale}/policy`);
 				Hello! 我是 Yaten，这是我的个人博客，<br>在这里我会分享我的学习笔记、生活随笔<br>以及各种有趣的内容。
 			</p>
 			<p class="intro-text">
-				本站至今已经运行了 <span class="highlight">{daysRunning}</span> 天，<br>写下 <span class="highlight">{notes.length + jottings.length}</span> 篇文章，共计 <span class="highlight">{totalWords}</span> 字。
+				本站至今已经运行了 <span class="highlight" id="days-running">...</span> 天，<br>写下 <span class="highlight">{notes.length + jottings.length}</span> 篇文章，共计 <span class="highlight">{totalWords}</span> 字。
 			</p>
 		</div>
 
@@ -348,3 +346,33 @@ const policy = await getEntry("information", `${locale}/policy`);
 		</div>
 	</div>
 </footer>
+
+<script>
+	// 动态计算运行天数
+	const launchTime = new Date("2025-05-25").getTime();
+
+	function updateDaysRunning() {
+		const now = Date.now();
+		const daysRunning = Math.floor((now - launchTime) / (1000 * 60 * 60 * 24));
+		const element = document.getElementById('days-running');
+		if (element) {
+			element.textContent = daysRunning.toString();
+		}
+	}
+
+	// 页面加载时更新
+	updateDaysRunning();
+
+	// 每天午夜更新一次
+	function scheduleNextUpdate() {
+		const now = new Date();
+		const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+		const timeUntilTomorrow = tomorrow.getTime() - now.getTime();
+		setTimeout(() => {
+			updateDaysRunning();
+			scheduleNextUpdate();
+		}, timeUntilTomorrow);
+	}
+
+	scheduleNextUpdate();
+</script>
