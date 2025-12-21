@@ -16,7 +16,7 @@ const friendlinks: IFriendCategory[] = [
 				name: "TATEN",
 				url: "https://taten.xyz",
 				avatar: "https://s1.imagehub.cc/images/2025/11/08/939d0319d47029a228029721d34ed816.png",
-				description: "一群热爱编程的学生，致力于探索技术的无限可能。"
+				description: "一群热爱编程的学生探索技术的无限可能"
 			},
 			{
 				name: "LINMOHAN",
@@ -65,6 +65,12 @@ const friendlinks: IFriendCategory[] = [
 				url: "https://guyang17.github.io/",
 				avatar: "https://avatars.githubusercontent.com/u/196782409?v=4",
 				description: "编程爱好者 | Minecraft玩家"
+			},
+			{
+				name: "自由的博客",
+				url: "https://blog.free2011.top/",
+				avatar: "https://img.fastmirror.net/s/2025/10/02/68de75caaf3fc.jpeg",
+				description: "初中生技术爱好者的公益分享平台"
 			}
 		]
 	},
