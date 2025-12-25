@@ -2,13 +2,13 @@ import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
 	title: "Sean's Blog",
-	prologue: "A place where you can speak freely and discover new things",
+	prologue: "This jungle of words chronicles my attempts, my imaginations, and the moments that sparked a change within me. Perhaps it may also bring a gentle breeze of change to you.",
 	author: {
 		name: "Sean",
 		email: "i@ssean.cn",
 		link: "https://blog.ssean.cn"
 	},
-	description: "A place to share my ideas and experiences.",
+	description: "A place to share my ideas, experiences, and thought",
 	copyright: {
 		type: "CC BY-NC-ND 4.0",
 		year: "2025"
