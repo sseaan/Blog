@@ -22,7 +22,7 @@
 ## 本站信息
 ```
 名称：Sean's Blog (可以使用 Sean)
-描述：世界多变而永恒，文字孤独却自由
+描述：山海见证长久，片刻亦能生辉
 地址：https://blog.ssean.cn
 头像：https://img.ssean.cn/cdn/Guoba.png
 友链页面：https://blog.ssean.cn/links

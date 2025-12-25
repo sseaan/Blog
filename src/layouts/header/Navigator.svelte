@@ -95,6 +95,17 @@ onMount(() => {
 		<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
 			<i class="fas fa-subway"></i>
 		</a>
+		
+		{#if !monolocale}
+			<Menu label="Language switcher">
+				{#snippet trigger()}<Icon name="lucide--earth" />{/snippet}
+				<div data-no-swup class="contents">
+					{#each config.i18n.locales as target}
+						<a href={locale === target ? undefined : getRelativeLocaleUrl(target as string, path)} lang={target} class={locale === target ? "font-bold sm:bg-primary sm:text-background" : ""}>{i18nit(target)("language")}</a>
+					{/each}
+				</div>
+			</Menu>
+		{/if}
 	</footer>
 </nav>
 

@@ -20,7 +20,7 @@ Please read the instructions below briefly before applying.
 ## Site Information
 ```
 Name: Sean's Blog (Sean is acceptable)
-Description: The world is ever-changing yet eternal; words are lonely yet free.
+Description: Mountains stand through ages, yet moments too can glow.
 URL: https://blog.ssean.cn
 Avatar: https://img.ssean.cn/cdn/Guoba.png
 Links Page: https://blog.ssean.cn/links

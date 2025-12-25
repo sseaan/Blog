@@ -1,82 +1,35 @@
 <div align="center">
     
-# Yaten-Z’s Blog|<img src="./public/favicon.svg" alt="SVG Image" width="50" height="50">
+# Sean’s Blog|<img src="./public/favicon.svg" alt="SVG Image" width="50" height="50">
 
 
-——世界多变而永恒，文字孤独却自由。
+——山海见证长久，片刻亦能生辉。
 </div>
 
-这里是 **Yaten-Z 的个人博客**，一个在文字与代码之间游走的地方。  
-我在这里写下关于技术、数学、文学与生活的思考，也记录自己成长的轨迹。
+这里是 **Sean 的个人博客**，一个分享自己的地方。  
+这里会有关于技术、文学与生活的思考，也记录自己折腾的轨迹。
 
-我始终相信，**代码是一种语言，而语言本身就是艺术。**  
-当我在屏幕前敲下每一行语句，就像诗人在纸上寻找句式的节奏。  
-它们都需要逻辑与情感的平衡，都在追求一种属于表达者自己的秩序与美感。
 
 ---
 
 ## 博客的诞生
 
-起初，我只是想要一个干净的地方，能让我安静地写点什么。  
-后来，它成了一本不被时间掩埋的笔记本，也是一面映照自我的镜子。  
-那些曾经的代码实验、文学片段、数学推演与深夜随想，都在这里汇聚，  
-它们共同构成了“我”这个不断生长的存在。
-
 博客使用了 **[Astro](https://astro.build/)** 框架，  
-并基于优秀的主题 **[ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite)** 进行二次构建。  
-这款主题简洁、克制，却又不失温度——正如我希望自己写下的文字那样。
+并使用基于 **[ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite)** 主题二次构建的 **[Yaten-Z/Blog](https://github.com/Yaten-Z/Blog)** 搭建
+在原版的基础上支持了 giscus 评论，以便部署在 Edgeone 上（原版的评论需要部署在 Cloudflare 上）
 
 ---
 
 ## 内容与方向
 
-在这里，我写下的内容大致分为四类：
+内容大致分为四类：
 
 - **note** —— 文记，关于思考与构建的长篇作品。  
 - **jotting** —— 随笔，即时的感受与片刻的灵光。  
 - **preface** —— 前言，为整座博客定下语调与心绪。  
 - **information** —— 信息，记录说明与技术笔记。
 
-有时是代码的逻辑，有时是诗的节奏；  
-有时是项目的细节，有时是夜色下的一句低语。  
-一切都源自那种“想要记录”的冲动。
-
----
-
-## 技术的温度
-
-博客的世界由代码筑成。  
-我使用 **Astro + Svelte** 的组合去搭建它，用 **UnoCSS** 打磨视觉细节，  
-再借助 **Medium Zoom**、**Swup** 等库，让阅读在流动中保持沉静。  
-
-一行一行配置，一次又一次构建，  
-就像为思想搭建一座可以安放的屋子。  
-而主题 **ThoughtLite**，正是这座屋子的骨架——  
-简约、清晰，却留有足够的空间容纳个体的思想。
-
----
-
-## 写作的意义
-
-我写这些文字，不是为了“展示”，  
-而是为了让自己在混乱的世界中，保留一份秩序感。  
-当代码编译通过，当句子终于顺畅，  
-那种平静与满足，是我理解“创造”的全部意义。
-
-我相信，学习的本质是理解世界，  
-而写作的本质，是理解自己。  
-
----
-
-## 致谢
-
-- **主题作者**：[tuyuritio / ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite)  
-- **框架支持**：[Astro](https://astro.build/)  
-- **团队伙伴**：[TATEN](https://taten.xyz) —— *创新 · 协作 · 分享 · 成长*  
-
----
 
 ## License
-
-本博客遵循 [GPLv3](LICENSE) 协议开源。  
+本博客遵循 [GPLv3 协议](https://www.gnu.org/licenses/gpl-3.0.html) 开源。
 主题版权归 [tuyuritio / ThoughtLite](https://github.com/tuyuritio/astro-theme-thought-lite) 所有。
