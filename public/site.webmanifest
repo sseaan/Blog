@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Sean's Thoughts",
+  "short_name": "Thoughts",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

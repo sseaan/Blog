@@ -261,7 +261,7 @@ const policy = await getEntry("information", `${locale}/policy`);
 		<div class="footer-column column-left">
 			<h3>关于本站</h3>
 			<p class="intro-text">
-				Hello! 我是 Yaten，这是我的个人博客，<br>在这里我会分享我的学习笔记、生活随笔<br>以及各种有趣的内容。
+				Hello! 我是 Sean，这是我的个人博客，<br>在这里我会分享我的折腾记录、生活日常<br>以及各种有趣的内容。
 			</p>
 			<p class="intro-text">
 				本站至今已经运行了 <span class="highlight" id="days-running">...</span> 天，<br>写下 <span class="highlight">{notes.length + jottings.length}</span> 篇文章，共计 <span class="highlight">{totalWords}</span> 字。
@@ -290,13 +290,10 @@ const policy = await getEntry("information", `${locale}/policy`);
 				<h4>联系方式</h4>
 				<!-- 修改联系方式 -->
 				<div class="info-item">
-					<a href="https://github.com/Yaten-Z" target="_blank">GitHub: Yaten-Z</a>
+					<a href="https://github.com/sseaan" target="_blank">GitHub: Yaten-Z</a>
 				</div>
 				<div class="info-item">
-					<a href="mailto:Yaten-Z@outlook.com">Email: Yaten-Z@outlook.com</a>
-				</div>
-				<div class="info-item">
-					<a href="https://qm.qq.com/q/IyIRVq6vwQ" target="_blank">QQ: 2635802854</a>
+					<a href="mailto:i@ssean.cn">Email: i@ssean.cn</a>
 				</div>
 			</div>
 		</div>
@@ -343,13 +340,15 @@ const policy = await getEntry("information", `${locale}/policy`);
 			<span>
 				Powered by <a href="https://astro.build/" target="_blank">Astro</a>
 			</span>
+			<span>·</span>
+			<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2025505101号</a>
 		</div>
 	</div>
 </footer>
 
 <script>
 	// 动态计算运行天数
-	const launchTime = new Date("2025-05-25").getTime();
+	const launchTime = new Date("2025-12-25").getTime();
 
 	function updateDaysRunning() {
 		const now = Date.now();

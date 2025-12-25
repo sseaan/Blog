@@ -1,38 +1,27 @@
-> 这里是一片宁静的留言之地。  
-> 你可以在此驻足，留下你的痕迹。  
-> 一句问候，一段感想，或是一份期待——  
-> 都将被温柔地记录在这里。
+Here is a peaceful place to leave a message.
+You can stop here and leave your mark.
+A greeting, a reflection, or an expectation—
+All will be gently recorded here.
 
-## 关于留言
+## About the Message Board
 
-欢迎来到我的留言板！
+Welcome to my message board!
 
-这里没有复杂的规则，只有简单的期待：  
-- **真诚** - 用心书写每一个字  
-- **友善** - 让温暖在文字间流动  
-- **尊重** - 每一份表达都值得被珍视
+There are no complicated rules here, only simple expectations:
+- **Sincerity** - Write every word with your heart
+- **Kindness** - Let warmth flow between the lines
+- **Respect** - Every expression is worth cherishing
 
-你可以：
-- 说一声"你好"，让我们相识  
-- 分享你的想法，关于这个博客或是其他  
-- 提出建议，帮助这里变得更好  
-- 记录此刻的心情，为时光留下注脚
+To maintain the beauty of this space, please abide by the following agreements:
 
----
-
-## 留言规则
-
-为了维护这片空间的美好，请遵守以下约定：
-
-1. **内容合法** - 请勿发布违反法律法规的内容
-2. **言语文明** - 拒绝人身攻击、恶意诋毁等不友善行为
-3. **禁止广告** - 这里不是广告发布平台
-4. **保护隐私** - 请勿泄露他人或自己的隐私信息
+1. **Legal Content** - Please do not post content that violates laws and regulations
+2. **Civil Speech** - Refuse unfriendly behavior such as personal attacks and malicious slander
+3. **No Advertising** - This is not an advertising platform
+4. **Protect Privacy** - Do not disclose private information of others or yourself
 
 ---
 
-无论你从何处来，又将往何处去，  
-感谢你在此刻停留，留下你的声音。
+Wherever you come from and wherever you are going,
+Thank you for stopping at this moment and leaving your voice.
 
-愿你我都能在这片文字的海洋中，  
-找到属于自己的那份宁静与温暖。
+May we all find our own peace and warmth in this ocean of words.

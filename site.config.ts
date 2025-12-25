@@ -1,14 +1,14 @@
 import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
-	title: "Yaten-Z's Blog",
-	prologue: "It's just finding words to match words,\none person thinking with another.\n But in this process, it seems we can do something.",
+	title: "Sean's Blog",
+	prologue: "A place where you can speak freely and discover new things",
 	author: {
-		name: "Yaten-Z",
-		email: "Yaten-Z@outlook.com",
-		link: "https://blog.yaten.xyz"
+		name: "Sean",
+		email: "i@ssean.cn",
+		link: "https://blog.ssean.cn"
 	},
-	description: "世界多变而永恒，文字孤独却自由",
+	description: "A place to share my ideas and experiences.",
 	copyright: {
 		type: "CC BY-NC-ND 4.0",
 		year: "2025"

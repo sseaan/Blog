@@ -1,104 +1,104 @@
-## 隐私政策
+## Privacy Policy
 
-> **最后更新**：2025 年 9 月 20 日
+> **Last Updated**: September 20, 2025
 
-本站高度重视您的隐私，仅收集提供基础服务所需的最小化数据。本政策将说明本站如何收集、使用和保护您的数据。  
+This site is hosted on Edgeone Pages. We take your privacy seriously and only collect the minimal data necessary to provide our services. This policy explains how our site collects, uses, and protects your data.
 
-### 数据收集类型
+### Types of Data Collected
 
-1. 自动收集数据
-    - 主题偏好：站点浅色模式或深色模式的偏好设置。
+1.  Automatically Collected Data
+    - Theme Preference: The user's preference for the site's light or dark mode.
+    - Access Log Data: Includes, but is not limited to, IP address, browser version, and access time.
 
-下表提供了所收集数据类型、收集目的和存储位置的概述：
+### Purposes of Data Use
 
-| 数据类型 | 收集方式 | 收集目的 | 存储位置 | 备注 |
-| - | - | - | - | - |
-| 主题偏好 | 用户设置 | 保存界面显示模式 | localStorage | |
+- To Enhance User Experience: Save user theme preferences (light/dark mode) in localStorage to ensure personalized interface settings are maintained on the user's next visit. For non-logged-in users, the custom nickname is saved in localStorage for subsequent comments.
+- For Internal Analysis and Service Improvement: Use basic access log data provided by Edgeone for site performance analysis and security monitoring to improve service quality and user experience.
 
-### 数据使用目的
+### Data Storage and Protection
 
-- 增强用户体验：保存用户的主题偏好设置（浅色/深色模式）在 localStorage 中，确保用户下次访问时能够保持其个性化的界面设置。
+-   localStorage: User custom nicknames and theme preferences are stored in the browser's localStorage. This data is stored only on the user's local device and is not transmitted to the server. Users can clear this local data at any time through their browser settings.
+-   HTTPS Encryption: This site is fully enabled with HTTPS encrypted transmission. All data is protected by TLS/SSL encryption during transmission between the client and server to prevent data from being stolen or tampered with.
+-   JWE Cookies: OAuth identity information and verification data during the authorization process are encrypted using JSON Web Encryption (JWE) and stored in Cookies. JWE provides end-to-end encryption protection to ensure the security of sensitive authentication information during transmission and storage. Cookies are set with appropriate security flags (HttpOnly, Secure, SameSite).
 
-### 数据存储与保护
+### Data Sharing and Disclosure
 
-- localStorage：用户的自定义昵称和主题偏好设置存储在浏览器的 localStorage 中，这些数据仅在用户本地设备上存储，不会传输到服务器。用户可以随时通过浏览器设置清除这些本地数据。
-- HTTPS 加密：本站全站启用 HTTPS 加密传输，所有数据在客户端与服务器之间的传输过程中均受到 TLS/SSL 加密保护，防止数据在传输过程中被窃取或篡改。
+We are committed to protecting your privacy and may share or disclose your data under the following circumstances:
 
-### 数据共享与披露
+- Third-party Service Providers: We use infrastructure services provided by Edgeone, and your data will be processed and stored on the Edgeone platform.
+- Legal Requirements: If required by laws, regulations, or judicial authorities, we may be required to disclose relevant data. However, we will do our best to protect user privacy and notify affected users to the extent permitted by law.
+- Data Anonymization: We may use anonymized or de-identified data for statistical analysis. This data will not contain any personally identifiable information.
 
-本站承诺保护您的隐私，在以下情况下可能会共享或披露您的数据：
+Except for the circumstances listed above, we will not sell, rent, or otherwise share your personal data with any third party.
 
-- 法律要求：在法律法规要求或司法机关依法要求的情况下，本站可能需要披露相关数据。但本站会在法律允许的范围内，尽力保护用户隐私并通知受影响的用户。
-- 数据匿名化：本站可能会使用匿名化或去识别化的数据进行统计分析，这些数据不会包含任何可识别个人身份的信息。
+### User Rights
 
-除上述情况外，本站不会向任何第三方出售、租赁或以其他方式共享您的个人数据。
+As a data subject, you have the following rights regarding your personal data:
 
-### 用户权利
+-   You have the right to know what personal data our site has collected from you.
+-   You can clear the local data stored in your browser at any time.
 
-作为数据主体，您拥有以下关于个人数据的权利：
+## Terms of Service
 
-- 您有权了解本站收集了您的哪些个人数据。
-- 您可以随时清除浏览器中存储的本地数据。
+> **Last Updated**: December 25, 2025
 
-## 服务条款
+### Service Content
 
-> **最后更新**：2025 年 9 月 20 日
+This site is a personal content creation platform based on open-source technology, primarily offering:
 
-### 服务内容
+- Article reading and browsing.
+- Feed subscription service.
 
-本站是一个基于开源技术的个人内容创作平台，主要提供：
+### User Permissions
 
-- 文章阅读和浏览功能。
-- Feed 订阅服务。
+- Browse all public content on the site.
+- Subscribe to the Feed.
 
-### 用户权限说明
+### User Code of Conduct
 
-- 浏览站点所有公开内容。
-- 订阅 Feed。
+When using this site's services, you must comply with the following:
 
-### 用户行为准则
+- Do not post content that is harmful, false, insulting, infringing, or otherwise illegal under the laws of the People's Republic of China.
+- Do not engage in destructive activities such as malicious attacks or spam posting.
+- Respect the legal rights and interests of other users and content creators.
+- Do not abuse or attempt to disrupt the site's technical architecture.
 
-使用本站服务时，您需要遵守：
+### Intellectual Property
 
-- 尊重其他用户和内容创作者的合法权益。
-- 不滥用或试图破坏网站技术架构。
+- Original content on this site is licensed under a Creative Commons license. Please refer to the identification in the website footer for the specific license type.
+- Third-party resources are subject to their respective license agreements.
 
-### 知识产权
+### Service Changes and Termination
 
-- 本站主题基于 [GPLv3 开源协议](https://www.gnu.org/licenses/gpl-3.0.html) 发布。
-- 站内原创内容采用知识共享（Creative Commons）协议授权，具体许可协议类型请参见网站页脚标识。
-- 第三方资源遵循各自的许可协议。
+- This site reserves the right to modify, suspend, or terminate part or all of its services at any time.
+- Material changes will be notified to users via site announcements or other appropriate methods.
+- Users may stop using this site's services and delete their account information at any time.
 
-### 服务变更与终止
+## Disclaimer
 
-- 本站保留随时修改、暂停或终止部分或全部服务的权利。
-- 重大变更将通过网站公告或其他适当方式通知用户。
+> **Last Updated**: December 25, 2025
 
-## 免责声明
+### Content Disclaimer
 
-> **最后更新**：2025 年 7 月 27 日
+- The content on this site represents the personal views of the author and does not constitute any form of advice or guidance.
+- This site is not responsible for the accuracy, completeness, or timeliness of its content.
+- Users are solely responsible for any consequences arising from the use of this site's content.
 
-### 内容免责
+### Technical Disclaimer
 
-- 本站内容仅代表作者个人观点，不构成任何形式的建议或指导。
-- 本站不对内容的准确性、完整性、时效性承担责任。
-- 用户因使用本站内容而产生的任何后果，需自行承担责任。
+- This site is built on open-source technology. We make every effort to ensure service stability but do not guarantee uninterrupted service.
+- This site is not liable for service interruptions caused by factors such as network failures, server maintenance, or force majeure events.
+- Failures or policy changes of third-party services may affect the functionality of this site.
 
-### 技术免责
+### Link Disclaimer
 
-- 本站基于开源技术构建，本站尽力保证服务稳定，但不保证无中断。
-- 因网络故障、服务器维护、不可抗力等因素导致的服务中断，本站不承担责任。
-- 第三方服务的故障或政策变更可能影响本站功能。
+- This site may contain links to third-party websites. This site is not responsible for the content or privacy policies of these websites.
+- Users are solely responsible for their actions and consequences when clicking on external links.
 
-### 链接免责
+### Limitation of Liability
 
-- 本站可能包含指向第三方网站的链接，本站不对这些网站的内容或隐私政策负责。
-- 用户点击外部链接的行为及其后果由用户自行承担。
+To the maximum extent permitted by law, this site is not liable for the following:
 
-### 损失免责
-
-在法律允许的最大范围内，本站不对以下情况承担责任：
-
-- 使用或无法使用本站服务导致的直接或间接损失。
-- 数据丢失、业务中断或其他经济损失。
-- 第三方的侵权行为或违约行为。
+- Direct or indirect losses arising from the use or inability to use this site's services.
+- Data loss, business interruption, or other economic losses.
+- Infringement or breach of contract by third parties.

@@ -1,0 +1,79 @@
+---
+title: Hello World
+timestamp: 2025-12-25 00:00:00+00:00
+tags: [Deployment, Edgeone, Astro]
+description: The first blog post on this site primarily introduces how to build a simple blog using the Thought Lite theme.
+---
+
+Welcome to my blog!
+
+After half a day of struggling, I finally got this blog up and running 😭
+
+This blog was built using the [Astro](https://astro.build/) framework and the [Thought Lite](https://github.com/tuyuritio/astro-theme-thought-lite) theme.
+
+It is deployed using EdgeOne Pages.
+
+The general process is as follows:
+
+### Clone the Repository
+
+Log in to your Github account, open [tuyuritio/astro-theme-thought-lite](https://github.com/tuyuritio/astro-theme-thought-lite), click the Fork button in the upper right corner to clone the repository to your own account.
+
+Copy the repository address, open the terminal, and use the `git clone` command to clone the repository locally.
+
+### Install Dependencies
+
+Open the terminal in the project directory.
+
+```sh
+pnpm install
+```
+
+### Local Debugging Commands
+
+| Command      | Action                                                                 |
+| ------------ | ---------------------------------------------------------------------- |
+| pnpm i       | Install dependencies                                                   |
+| pnpm dev     | Start the local development server at localhost:4321                   |
+| pnpm build   | Build your production site to ./dist/                                  |
+| pnpm preview | Preview your build locally before deployment                           |
+| pnpm format  | Format code using Prettier                                             |
+
+### Configuration Items
+
+Thought Lite's configuration is stored in `site.config.ts`.
+
+The following is an example configuration from the Thought Lite Github:
+
+```typescript
+- `title` - Site title
+- `prologue` - Homepage tagline, supports `\n` line breaks
+- `author`
+    - **string** - Author name
+    - **object**
+        - `name` - Author name
+        - `email` - Author email
+        - `link` - Author personal website
+- `description` - Site description
+- `copyright` - Copyright information
+    - `type` - CC license type
+    - `year` - Copyright year or year range
+- `feed` - Feed
+    - `section` - Feed content sections
+        - **`*`** - All sections
+        - **array**
+            - `note` - Note section
+            - `jotting` - Jotting section
+    - `limit` - Content quantity limit
+- `latest` - Latest content display
+    - `note` - Whether to display latest note
+    - `jotting` - Whether to display latest jotting
+```
+
+### EdgeOne Pages Deployment
+
+In the EdgeOne Pages interface, select Import Github repository and choose the Thought Lite template repository you forked earlier.
+
+The remaining configuration will be automatically recognized by EdgeOne as Astro, so just click Start Deployment and it's done 👌.
+
+After deployment is complete, you can enter the Pages management page to configure functions such as binding a domain name.

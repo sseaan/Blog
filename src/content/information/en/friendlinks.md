@@ -1,70 +1,68 @@
+> The web is vast, like a sea at night.  
+> Those who meet in the light are often not there by chance.  
+> These links lead to some gentle, lucid, or interesting souls.  
+> If you stop for a moment, you might like them too.
 
-> 网络辽阔，如夜航之海。  
-> 能在光里相遇的，往往不是偶然。  
-> 这些链接，通向一些温柔、清醒、或有趣的灵魂。  
-> 若你驻足片刻，或许也会喜欢他们。
+## About This Place
 
+This is my personal blog.  
+I write about tinkering with things and daily life; I record my thoughts and harbor my emotions.  
+It may not be noisy, but it will always be lit.
 
-## 关于这里
+If you too take your words and time seriously,  
+welcome to exchange a link with me,  
+letting two lamps gaze at each other from their distant shores.
 
-这里是我的个人博客。  
-写代码，也写日常；记录思考，也收留情绪。  
-它不一定喧哗，但会一直亮着。
-
-如果你也在认真对待自己的文字与时间，  
-欢迎与我交换一个链接，  
-让两盏灯在各自的岸边遥遥相望。
-
-在申请之前，请先简单读完下面的说明。
+Please read the instructions below briefly before applying.
 
 ---
 
-## 本站信息
+## Site Information
 ```
-名称：Yaten-Z's Blog (可以使用 Yaten-Z)
-描述：世界多变而永恒，文字孤独却自由
-地址：https://blog.yaten.xyz
-头像：https://s1.imagehub.cc/images/2025/05/30/55439681d8b3c2d988638c133e160a56.jpg
-友链页面：https://blog.yaten.xyz/links
+Name: Sean's Blog (Sean is acceptable)
+Description: The world is ever-changing yet eternal; words are lonely yet free.
+URL: https://blog.ssean.cn
+Avatar: https://img.ssean.cn/cdn/Guoba.png
+Links Page: https://blog.ssean.cn/links
 ```
 ---
 
-## 关于友链的约定
+## Agreements for Links
 
-为了让这条星链在页面上看起来整齐、安静，也方便日后的维护，这里约定几件小事：
+To keep the chain of links looking neat and quiet on the page, and for easier maintenance in the future, here are a few small agreements:
 
-- **关于昵称**  
-  为了整体风格统一，昵称中若包含「博客」「XX的XX」「XX's Blog」之类的结构，可能会做适度简化。  
-  若你希望保持原样，请在申请时备注说明。
+- **Regarding Nicknames**  
+  To maintain a consistent overall style, if a nickname contains structures like "Blog," "XX's XX," or "XX's Blog," it may be moderately simplified.  
+  If you wish to keep it as is, please make a note in your application.
 
-- **关于友链失联**  
-  如果你的 Blog 长期处于无人维护阶段，会放入失恋列表。  
-  如果想要加回友链，请在下方评论。
+- **Regarding Broken Links**  
+  If your blog is left unattended for a long period, it will be placed in a lost-and-found list.  
+  If you wish to be added back, please leave a comment below.
 
-- **关于友链审核**
-  由于本人为一初中生，时间比较少，因此只有放假才有时间审核。  
-  周末24h内审核，放假12h内审核，工作日90%不审核
-
----
-
-## 友链申请条件
-
-没有太过复杂的门槛，只希望彼此都在认真存在：
-
-1. 站点内容合法、积极，不包含违反中国大陆法律法规的内容。  
-2. 网站可在中国大陆正常访问。  
-3. 请先在你的站点添加本站链接，再在本页留言申请。
-4. 定期维护 Blog
+- **Regarding Link Review**  
+  As I am a high school senior about to take the college entrance examination, I have very little time, so I can only review during holidays.  
+  (And my school is an outrageous entity that decides holidays as it pleases.)
 
 ---
 
-## 申请格式参考
+## Link Application Requirements
+
+There are no overly complex barriers; I simply hope that we are all genuinely present:
+
+1. The site's content must be legal and positive, and must not contain content that violates mainland Chinese laws and regulations.  
+2. The website must be accessible normally from mainland China.  
+3. Please add a link to this site on your site first, then leave a comment below to apply.
+4. Maintain your blog regularly.
+
+---
+
+## Application Format Reference
 
 ```text
-站点名称：
-站点地址：
-站点头像：
-站点描述：
+Site Name:
+Site URL:
+Site Avatar:
+Site Description:
 
 name:
 url:
