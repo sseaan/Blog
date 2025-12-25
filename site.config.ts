@@ -2,7 +2,7 @@ import siteConfig from "./src/utils/config";
 
 const config = siteConfig({
 	title: "Sean's Blog",
-	prologue: "This jungle of words chronicles my attempts, my imaginations, and the moments that sparked a change within me. Perhaps it may also bring a gentle breeze of change to you.",
+	prologue: "This jungle of words chronicles \nmy attempts and imaginations \nPerhaps it may also bring a gentle breeze  to you.",
 	author: {
 		name: "Sean",
 		email: "i@ssean.cn",
