@@ -5,6 +5,7 @@ import config, { monolocale } from "$config";
 import i18nit from "$i18n";
 import ThemeSwitcher from "./ThemeSwitcher.svelte";
 import Menu from "./Menu.svelte";
+import Icon from '$components/Icon.astro';
 
 let {
 	locale,
@@ -95,7 +96,7 @@ onMount(() => {
 		<a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener" title="开往-友链接力">
 			<i class="fas fa-subway"></i>
 		</a>
-		
+
 		{#if !monolocale}
 			<Menu label="Language switcher">
 				{#snippet trigger()}<Icon name="lucide--earth" />{/snippet}
