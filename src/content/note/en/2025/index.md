@@ -1,8 +1,9 @@
 ---
 title: 2025: Between Corridors, Clouds, and Twilight
 timestamp: 2025-01-01 12:59:59+08:00
-tags: [Year-End Summary]
+tags: [Summary]
 description: On the last day of 2025, summarizing school, life, and reflections from the year.
+---
 
 > **Epigraph / "Not all days shine brightly, but every single one counts."**
 
@@ -216,13 +217,13 @@ Ordered a whole box of barbecue skewers to the dorm, plus dumplings, sour fish s
 
 ### AI
 
-This year, I registered for [Linux Do](https://linux.do), which opened the door to tinkering with AI. Things like early model leaks and reviews can be found on L站.
+This year, I registered for [Linux Do](https://linux.do), which opened the door to tinkering with AI. Things like early model leaks and reviews can be found on L 站.
 However, my current application of AI is mainly focused on learning and some programming. I haven't delved much into deeper Agents. I'll continue exploring in the new year.
 
 1. DeepSeek
    After DeepSeek went viral on January 21st due to DeepSeek-R1, I also topped up 10 RMB to try it. Its understanding within the Chinese context was indeed far ahead at the time. Even though later models from Doubao and Zhipu advanced further, I still use it for writing assistance and providing examples for argumentative points.
 2. Zhipu ChatGLM
-   Zhipu was indeed behind initially, but after GLM-4 came out, it visibly found its direction. The free calls for GLM-4-Flash were also a brilliant move, attracting many users to Zhipu. GLM-4.5's Agent and special optimizations for programming also pioneered the trend of alternatives,初步突破了 the high wall built by Authropic.
+   Zhipu was indeed behind initially, but after GLM-4 came out, it visibly found its direction. The free calls for GLM-4-Flash were also a brilliant move, attracting many users to Zhipu. GLM-4.5's Agent and special optimizations for programming also pioneered the trend of alternatives，初步突破了 the high wall built by Authropic.
 3. OpenAI
    To be honest, I didn't have much contact with OpenAI this year because DeepSeek sufficed for Chinese contexts. However, the groundbreaking leads of Sora2 and GPT-4o were truly eye-opening.
 
