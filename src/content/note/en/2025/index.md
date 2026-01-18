@@ -1,6 +1,6 @@
 ---
 title: "2025: Between Corridors, Clouds, and Twilight"
-timestamp: 2025-01-01 12:59:59+08:00
+timestamp: 2026-01-01 12:59:59+08:00
 tags: [Summary]
 description: On the last day of 2025, summarizing school, life, and reflections from the year.
 ---
