@@ -24,7 +24,7 @@
 名称：Sean's Blog (可以使用 Sean)
 描述：山海见证长久，片刻亦能生辉
 地址：https://blog.ssean.cn
-头像：https://img.ssean.cn/cdn/Guoba.png
+头像：https://img.ysr.cn/cdn/Guoba.png
 友链页面：https://blog.ssean.cn/links
 ```
 ---
