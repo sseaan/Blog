@@ -22,7 +22,7 @@ Please read the instructions below briefly before applying.
 Name: Sean's Blog (Sean is acceptable)
 Description: Mountains stand through ages, yet moments too can glow.
 URL: https://blog.ssean.cn
-Avatar: https://img.ssean.cn/cdn/Guoba.png
+Avatar: https://img.ysr.cc/cdn/Guoba.png
 Links Page: https://blog.ssean.cn/links
 ```
 ---
