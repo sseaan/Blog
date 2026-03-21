@@ -1,6 +1,6 @@
 ## Privacy Policy
 
-> **Last Updated**: September 20, 2025
+> **Last Updated**: November 25, 2025
 
 This site is hosted on Edgeone Pages. We take your privacy seriously and only collect the minimal data necessary to provide our services. This policy explains how our site collects, uses, and protects your data.
 
