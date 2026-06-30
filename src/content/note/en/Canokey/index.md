@@ -354,6 +354,10 @@ You can use any NFC tag editing software (e.g. NFC Tools) to modify its contents
 
 Note: NDEF data is stored in plaintext, without any encryption. Don't store sensitive information here.
 
+## Public Key Exchange
+
+I will upload my public key to the [OpenPGP Key Server](https://keys.openpgp.org/search?q=sseaan%40outlook.com) so that anyone can encrypt messages for me using my public key.
+
 ## Afterword
 
 I haven't yet tried other use cases — like signing emails with OpenPGP keys or SSH authentication — mainly because I don't really need them right now.
