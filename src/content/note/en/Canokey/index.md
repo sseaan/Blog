@@ -16,7 +16,7 @@ I bought this key a few months ago, but with the college entrance exam (Gaokao) 
 
 Simply buy it from the official Taobao store, *Canokeys*. The price is roughly under ¥200 (firmware version 3.0.3 stable).
 
-<img src="purchase.png" style="zoom:25%;" />
+[purchase page](purchase.png)
 
 ## Initialization
 
